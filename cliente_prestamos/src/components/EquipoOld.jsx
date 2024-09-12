@@ -45,15 +45,19 @@ export const EquipoOld = () => {
         });
     };
     return (
-        <div style={{ marginTop: '-10px' }}>
-            <center>
-                <h2>DATOS DEL EQUIPO ANTERIOR (RENOVACIÓN O DEVOLUCIÓN)</h2>
-            </center>
-            <form id="formulario+" onSubmit={handleSubmit}>
-                <table>
+        <div style={{ marginTop: '-20px', marginRight: '-160px' }}>
+          
+                
+                <h2><center>DATOS DEL EQUIPO ANTERIOR (RENOVACIÓN O DEVOLUCIÓN)</center></h2>
+        
+            <form id="formulario+">
+                <table style={{ marginTop: '-10px' }}>
+                    <div style={{border: '1px solid black', padding: '20px', marginTop: '20px' }}>
+
                     <tbody>
                         <tr>
-                            <td rowSpan="3" style={{ width: '240px' }}>
+                            <td rowSpan="3" style={{ width: '140px' }}>
+                                
                                 <b>
                                     <center>Tipo de Elemento:</center>
                                 </b>
@@ -182,13 +186,9 @@ export const EquipoOld = () => {
                                 <input className="observacion" type="text" name="observacion_a" value={formData.observacion_a} onChange={handleChange} placeholder="OBSERVACIONES:" />
                             </td>
                         </tr>
-
-                        <tr>
-                            <td colSpan="6">
-                                <button type="submit">Enviar</button>
-                            </td>
-                        </tr>
+                      
                     </tbody>
+                </div>
                 </table>
             </form >
         </div>

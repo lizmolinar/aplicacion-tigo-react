@@ -28,41 +28,35 @@ export const DatosUser = () => {
             [name]: value,
         });
     };
+
     return (
         <div>
-            <table style={{ marginTop: '-10px' }}>
+            <h2 style={{ textAlign: 'center' }}>DATOS DEL USUARIO</h2>
+            
+            <table style={{ marginTop: '-10px', width: '100%', borderCollapse: 'collapse' }}>
                 <tbody>
+                    {/* Primera fila */}
                     <tr>
-                        <center>
-                            <h2>DATOS DEL USUARIO</h2>
-                        </center>
-                    </tr>
-                </tbody>
-            </table>
-
-            <table style={{ marginTop: '-10px' }}>
-                <tbody>
-                    <tr>
-                        <td style={{ width: '140px' }}><b>Fecha: </b>
+                        <td style={{ border: '1px solid black', padding: '10px', width: '140px' }}>
+                            <b>Fecha: </b>
                             <input
                                 type="text"
                                 name="fecha"
                                 value={formData.fecha}
                                 onChange={handleInputChange}
-                                onKeyPress={(e) => handleKeyPress(e, /[0-9\/]/)}
                                 maxLength="10"
                                 autoComplete="off"
                                 placeholder="dd/mm/yyyy"
                                 required
                             />
                         </td>
-                        <td style={{ width: '560px' }}><b>Nombre del Usuario: </b>
+                        <td style={{ border: '1px solid black', padding: '10px', width: '560px' }}>
+                            <b>Nombre del Usuario: </b>
                             <input
                                 type="text"
                                 name="nombre"
                                 value={formData.nombre}
                                 onChange={handleInputChange}
-                                onKeyPress={(e) => handleKeyPress(e, /[A-Z ]/)}
                                 maxLength="60"
                                 autoComplete="off"
                                 required
@@ -70,8 +64,10 @@ export const DatosUser = () => {
                         </td>
                     </tr>
 
+                    {/* Segunda fila */}
                     <tr>
-                        <td><b>Propiedad del Equipo: </b>
+                        <td style={{ border: '1px solid black', padding: '10px' }}>
+                            <b>Propiedad del Equipo: </b>
                             <select name="propiedad" value={formData.propiedad} onChange={handleInputChange}>
                                 <option>Seleccionar</option>
                                 <option>Colsubsidio</option>
@@ -79,25 +75,25 @@ export const DatosUser = () => {
                                 <option>Otro</option>
                             </select>
                         </td>
-                        <td style={{ width: '290px' }}><b># Identificación: </b>
+                        <td style={{ border: '1px solid black', padding: '10px' }}>
+                            <b># Identificación: </b>
                             <input
                                 type="text"
                                 name="cedula"
                                 value={formData.cedula}
                                 onChange={handleInputChange}
-                                onKeyPress={(e) => handleKeyPress(e, /[0-9]/)}
                                 maxLength="14"
                                 autoComplete="off"
                                 required
                             />
                         </td>
-                        <td><b># Celular: </b>
+                        <td style={{ border: '1px solid black', padding: '10px' }}>
+                            <b># Celular: </b>
                             <input
                                 type="text"
                                 name="celular"
                                 value={formData.celular}
                                 onChange={handleInputChange}
-                                onKeyPress={(e) => handleKeyPress(e, /[0-9]/)}
                                 maxLength="12"
                                 autoComplete="off"
                                 required
@@ -105,76 +101,78 @@ export const DatosUser = () => {
                         </td>
                     </tr>
 
+                    {/* Tercera fila */}
                     <tr>
-                        <td><b>Cargo: </b>
+                        <td style={{ border: '1px solid black', padding: '10px' }}>
+                            <b>Cargo: </b>
                             <input
                                 type="text"
                                 name="cargo"
                                 value={formData.cargo}
                                 onChange={handleInputChange}
-                                onKeyPress={(e) => handleKeyPress(e, /[A-Z ]/)}
                                 maxLength="60"
                                 autoComplete="off"
                                 required
                             />
                         </td>
-                        <td><b>Centro de costos: </b>
+                        <td style={{ border: '1px solid black', padding: '10px' }}>
+                            <b>Centro de costos: </b>
                             <input
                                 type="text"
                                 name="costos"
                                 value={formData.costos}
                                 onChange={handleInputChange}
-                                onKeyPress={(e) => handleKeyPress(e, /[0-9]/)}
                                 maxLength="9"
                                 autoComplete="off"
                                 required
                             />
                         </td>
-                        <td><b>Centro Logistico: </b>
+                        <td style={{ border: '1px solid black', padding: '10px' }}>
+                            <b>Centro Logistico: </b>
                             <input
                                 type="text"
                                 name="logistico"
                                 value={formData.logistico}
                                 onChange={handleInputChange}
-                                onKeyPress={(e) => handleKeyPress(e, /[A-Z0-9 \/]/)}
                                 maxLength="10"
                                 autoComplete="off"
                             />
                         </td>
                     </tr>
 
+                    {/* Cuarta fila */}
                     <tr>
-                        <td><b>Sede: </b>
+                        <td style={{ border: '1px solid black', padding: '10px' }}>
+                            <b>Sede: </b>
                             <input
                                 type="text"
                                 name="sede"
                                 value={formData.sede}
                                 onChange={handleInputChange}
-                                onKeyPress={(e) => handleKeyPress(e, /[A-Z0-9 ]/)}
                                 maxLength="60"
                                 autoComplete="off"
                                 required
                             />
                         </td>
-                        <td style={{ width: '180px' }}><b>Dirección: </b>
+                        <td style={{ border: '1px solid black', padding: '10px' }}>
+                            <b>Dirección: </b>
                             <input
                                 type="text"
                                 name="direccion"
                                 value={formData.direccion}
                                 onChange={handleInputChange}
-                                onKeyPress={(e) => handleKeyPress(e, /[A-Z0-9 #\-.,]/)}
                                 maxLength="60"
                                 autoComplete="off"
                                 required
                             />
                         </td>
-                        <td><b>Ubicación: </b>
+                        <td style={{ border: '1px solid black', padding: '10px' }}>
+                            <b>Ubicación: </b>
                             <input
                                 type="text"
                                 name="ubicacion"
                                 value={formData.ubicacion}
                                 onChange={handleInputChange}
-                                onKeyPress={(e) => handleKeyPress(e, /[A-Z0-9 #\-.,]/)}
                                 maxLength="60"
                                 autoComplete="off"
                                 required
@@ -182,37 +180,38 @@ export const DatosUser = () => {
                         </td>
                     </tr>
 
+                    {/* Quinta fila */}
                     <tr>
-                        <td style={{ width: '340px' }}><b>Jefe Inmediato: </b>
+                        <td style={{ border: '1px solid black', padding: '10px' }}>
+                            <b>Jefe Inmediato: </b>
                             <input
                                 type="text"
                                 name="jefe"
                                 value={formData.jefe}
                                 onChange={handleInputChange}
-                                onKeyPress={(e) => handleKeyPress(e, /[A-Z ]/)}
                                 maxLength="60"
                                 autoComplete="off"
                             />
                         </td>
-                        <td><b>Gerencia: </b>
+                        <td style={{ border: '1px solid black', padding: '10px' }}>
+                            <b>Gerencia: </b>
                             <input
                                 type="text"
                                 name="gerencia"
                                 value={formData.gerencia}
                                 onChange={handleInputChange}
-                                onKeyPress={(e) => handleKeyPress(e, /[A-Z ]/)}
                                 maxLength="60"
                                 autoComplete="off"
                                 required
                             />
                         </td>
-                        <td><b>Usuario de red: </b>
+                        <td style={{ border: '1px solid black', padding: '10px' }}>
+                            <b>Usuario de red: </b>
                             <input
                                 type="text"
                                 name="usuario_red"
                                 value={formData.usuario_red}
                                 onChange={handleInputChange}
-                                onKeyPress={(e) => handleKeyPress(e, /[A-Z]/)}
                                 maxLength="10"
                                 autoComplete="off"
                                 required
@@ -220,30 +219,36 @@ export const DatosUser = () => {
                         </td>
                     </tr>
 
+                    {/* Modalidad de trabajo */}
                     <tr>
-                        <td colSpan="6"><b>Modalidad de trabajo: </b>
+                        <td colSpan="3" style={{ border: '1px solid black', padding: '10px' }}>
+                            <b>Modalidad de trabajo: </b>
                             <select name="modalidad" value={formData.modalidad} onChange={handleInputChange}>
                                 <option>Seleccionar</option>
                                 <option>Presencial</option>
-                                <option>Teletrabajo autonomo</option>
+                                <option>Teletrabajo autónomo</option>
                                 <option>Teletrabajo suplementario</option>
                             </select>
                         </td>
                     </tr>
 
+                    {/* Facilidades operativas */}
                     <tr>
-                        <td colSpan="6"><b>facilidades operativas que se entregan: </b>
+                        <td colSpan="3" style={{ border: '1px solid black', padding: '10px' }}>
+                            <b>Facilidades operativas que se entregan: </b>
                             <select name="operativas" value={formData.operativas} onChange={handleInputChange}>
                                 <option>Seleccionar</option>
                                 <option>Carnet</option>
                                 <option>Tarjeta de acceso</option>
-                                <option>otros</option>
+                                <option>Otros</option>
                             </select>
                         </td>
                     </tr>
 
+                    {/* Tipo de contrato */}
                     <tr>
-                        <td colSpan="6"><b>Tipo de contrato del usuario: </b>
+                        <td colSpan="3" style={{ border: '1px solid black', padding: '10px' }}>
+                            <b>Tipo de contrato del usuario: </b>
                             <select name="contrato" value={formData.contrato} onChange={handleInputChange}>
                                 <option>Seleccionar</option>
                                 <option>Trabajador</option>
@@ -255,5 +260,5 @@ export const DatosUser = () => {
                 </tbody>
             </table>
         </div>
-    )
-}
+    );
+};

@@ -45,14 +45,18 @@ export const EquipoNew = () => {
         });
     };
     return (
-        <div style={{ marginTop: '-10px' }}>
-            <h2>DATOS EQUIPOS, CELULARES Y HERRAMIENTAS DE TRABAJO</h2>
-            <h2>DATOS DEL EQUIPO NUEVO</h2>
-            <form id="formularion" onSubmit={handleSubmit}>
-                <table>
+        <div style={{ marginTop: '-20px', marginRight: '-160px' }}>
+              
+            <h2><center>DATOS EQUIPOS, CELULARES Y HERRAMIENTAS DE TRABAJO</center></h2>
+            <h2><center>DATOS DEL EQUIPO NUEVO</center></h2>
+            
+            <form id="formularion">
+                <table style={{ marginTop: '-10px' }}>
+                <div style={{border: '1px solid black', padding: '20px', marginTop: '20px' }}>
                     <tbody>
                         <tr>
-                            <td rowSpan="3" style={{ width: '240px' }}>
+                            <td rowSpan="3" style={{ width: '140px' }}>
+
                                 <b>Tipo de Elemento:</b>
                                 <p>
                                     Escritorio: <input type="checkbox" name="desktop_n" checked={formData.desktop_n} onChange={handleChange} />
@@ -153,15 +157,14 @@ export const EquipoNew = () => {
                                 <input type="text" name="observacion_n" value={formData.observacion_n} onChange={handleChange} placeholder="OBSERVACIONES:" />
                             </td>
                         </tr>
-
-                        <tr>
-                            <td colSpan="6">
-                                <button type="submit">Enviar</button>
-                            </td>
-                        </tr>
+                    
+                        
                     </tbody>
+                </div> 
                 </table>
+                
             </form>
+            
         </div>
     )
 }

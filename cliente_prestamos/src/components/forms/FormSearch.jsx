@@ -1,20 +1,26 @@
 export const FormSearch = () => {
     return (
-        <form action="" method="get" classname="col-12 p-2">
-            <h1 classname="text-center text-secundary">Busca aqui</h1>
-            <br/>
-            <div classname="form-floating mb-4">
-                <input type="text" classname="form-control" id="floatingInput" name="buscaserial"/>
-                <label for="floatingInput">Serial del equipo</label>
-            </div>
-            <h4 classname="text-center text-secundary">O tambien por:</h4>
-            <div classname="form-floating">
-                <input type="text" classname="form-control" id="floatingPassword" name="buscacedula"/>
-                <label for="floatingPassword">Numero de identificación</label>
-            </div>
-            <br/>
-            <button type="submit" classname="btn btn-primary" name="btnbuscar" value="ok">Buscar</button>
-        </form>
+        <div className="d-flex justify-content-center align-items-center" style={{ minHeight: '100vh' }}>
+            <form action="" method="get" className="col-12 col-md-4 p-1">
+                <h1 className="text-center text-secondary">Busca aquí</h1>
+                <br />
+                <div className="input-group mb-2">
+                    <div className="form-floating flex-grow-1">
+                        <input type="text" className="form-control" id="floatingInput" name="buscaserial" />
+                        <label htmlFor="floatingInput">Serial del equipo</label>
+                    </div>
+                    <button type="submit" className="btn btn-primary ms-2" name="btnbuscar" value="ok">Buscar</button>
+                </div>
 
-    )
+                <h4 className="text-center text-secondary">O también por:</h4>
+                <div className="input-group mb-3">
+                    <div className="form-floating flex-grow-1">
+                        <input type="text" className="form-control" id="floatingPassword" name="buscacedula" />
+                        <label htmlFor="floatingPassword">Número de identificación</label>
+                    </div>
+                    <button type="submit" className="btn btn-primary ms-2" name="btnbuscarnum" value="ok">Buscar</button>
+                </div>
+            </form>
+        </div>
+    );
 }

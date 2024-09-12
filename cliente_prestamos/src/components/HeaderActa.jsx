@@ -39,15 +39,15 @@ export const HeaderActa = () => {
             <td rowSpan="3">
               <center>
                 <b>
-                  <a className="z">
+                  <div style={{ border: '1px solid black', padding: '20px', marginTop: '20px' }}> 
                     <br />
                     ANEXO DE ENTREGAS AL TRABAJADOR DE EQUIPOS, HERRAMIENTAS Y FACILIDADES OPERATIVAS
-                  </a>
+                  </div>
                 </b>
               </center>
             </td>
-            <td style={{ width: '460px' }}>
-              <b>
+            <td>
+              <div style={{ border: '1px solid black', padding: '20px', marginTop: '20px' }}>
                 Asignación
                 <input
                   type="checkbox"
@@ -76,11 +76,12 @@ export const HeaderActa = () => {
                   checked={formData.prestamo}
                   onChange={handleInputChange}
                 />
-              </b>
+              </div>
             </td>
           </tr>
           <tr>
             <td style={{ width: '460px' }}>
+            <div style={{ border: '1px solid black', padding: '20px', marginTop: '20px' }}>
               <b>Ciudad: </b>
               <input
                 type="text"
@@ -92,10 +93,12 @@ export const HeaderActa = () => {
                 maxLength="10"
                 autoComplete="off"
               />
+            </div>
             </td>
           </tr>
           <tr>
             <td style={{ width: '460px' }}>
+            <div style={{ border: '1px solid black', padding: '20px', marginTop: '20px' }}>
               <b>Oc o Ticket: </b>
               <input
                 type="text"
@@ -107,6 +110,7 @@ export const HeaderActa = () => {
                 maxLength="10"
                 autoComplete="off"
               />
+            </div>
             </td>
           </tr>
         </tbody>
