@@ -1,0 +1,609 @@
+
+
+body{
+    overflow-x: hidden;
+  }
+
+  .a{
+    border-color: transparent;
+    background-color: #E8E8E6;
+    width: 0px;
+    padding: 16px;
+  }
+
+  .b{
+    border-color: transparent;
+    background-color: #E8E8E6;
+    padding: 2px;
+  }
+
+  h2{
+    margin-top: -10px;
+    background-color: #CCD1D1;
+    height: 40px;
+    width: 88%;
+  }
+
+  .accesorios{
+    background-color: #CCD1D1;
+    text-align: center;
+  }
+
+  .imagen{
+    height: 90px;
+    width: 96px;
+    margin-right: 20px;
+  }
+
+  .imagen2{
+    margin-left:74%;
+    width: 200px;
+  }
+
+  table{
+    border-collapse: collapse;
+    width: 88%;
+    margin: 20px auto;
+  }
+
+  th{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  td{
+    font-size: 13.6px;
+    border: 1px solid black;
+    padding: 2px;
+    text-align: left;
+  }
+
+
+
+  
+  
+  .fecha{
+    border-color: transparent;
+    font-size: 14px;
+    width: 130px;
+  }
+
+  .ciudad{
+    border-color: transparent;
+    width: 150px;
+  }
+
+  .accion{
+    border-color: transparent;
+    font-size: 13px;
+    height: 30px;
+    width: 130px;
+  }
+
+  .ticket{
+    border-color: transparent;
+    width: 100px;
+  }
+
+  .nombre{
+    border-color: transparent;
+    width: 360px;
+    height: 24px;
+  }
+
+  .cedula{
+    border-color: transparent;
+    width: 120px;
+    height: 24px;
+  }
+
+  .celular{
+    border-color: transparent;
+    width: 120px;
+    height: 24px;
+  }
+
+  .costos{
+    border-color: transparent;
+    width: 120px;
+    height: 24px;
+  }
+
+  .gerencia{
+    border-color: transparent;
+    width: 380px;
+    height: 24px;
+  }
+
+  .red{
+    border-color: transparent;
+    width: 120px;
+    height: 24px;
+  }
+
+  .cargo{
+    border-color: transparent;
+    width: 430px;
+    height: 24px;
+  }
+
+  .sede{
+    border-color: transparent;
+    width: 430px;
+    height: 24px;
+  }
+
+  .ubicacion{
+    border-color: transparent;
+    width: 120px;
+    height: 24px;
+  }
+
+  .logistico{
+    border-color: transparent;
+    width: 120px;
+    height: 24px;
+  }
+
+  .segmento{
+    border-color: transparent;
+    width: 120px;
+    height: 24px;
+  }
+
+  .jefe{
+    border-color: transparent;
+    width: 420px;
+    height: 24px;
+  }
+
+  .direccion{
+    border-color: transparent;
+    width: 420px;
+    height: 24px;
+  }
+
+  .t_contrato{
+    border-color: transparent;
+    font-size: 13px;
+    width: 120px;
+    height: 24px;
+  }
+
+  .f_operativas{
+    border-color: transparent;
+    font-size: 13px;
+    width: 120px;
+    height: 24px;
+  }
+
+  .propiedad{
+    border-color: transparent;
+    font-size: 13px;
+    width: 120px;
+    height: 24px;
+  }
+  .memoria{
+    border-color: transparent;
+    font-size: 13px;
+    width: 120px;
+    height: 24px;
+  }
+
+  .disco{
+    border-color: transparent;
+    font-size: 13px;
+    width: 120px;
+    height: 24px;
+  }
+
+
+  .modalidad{
+    border-color: transparent;
+    font-size: 13px;
+    width: 120px;
+    height: 24px;
+  }
+
+  .accion1{
+    border-color: transparent;
+    font-size: 13px;
+    height: 24px;
+    width: 120px;
+  }
+
+  .placa_n{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .marca_n{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .imput_in{
+    border-color: transparent;
+    
+    height: 24px;
+  }
+
+  .serial_n{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .modelo_n{
+    border-color: transparent;
+    width: 360px;
+    height: 24px;
+  }
+
+  .nombre_equipo_n{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .mac_n{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .monitor{
+    border-color: transparent;
+    font-size: 13px;
+    height: 30px;
+    width: 130px;
+  }
+
+  .placa_m{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .serial_m{
+    
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  
+  }
+
+  .marca_m{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .modelo_m{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+  .otro_dispositivo{
+    border-color: transparent;
+    font-size: 13px;
+    height: 30px;
+    width: 130px;
+  }
+
+  .placa_o{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .serial_o{
+    
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  
+  }
+
+  .marca_o{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .modelo_o{
+    border-color: transparent;
+    width: 240px;
+  }
+
+
+  .accion2{
+    border-color: transparent;
+    font-size: 13px;
+    height: 24px;
+    width: 120px;
+  }
+
+  .placa_v{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .marca_v{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .serial_v{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .modelo_v{
+    border-color: transparent;
+    width: 360px;
+    height: 24px;
+  }
+
+  .nombre_equipo_v{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .mac_v{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .observacion{
+    font-size: 16px;
+    height: 40px;
+    width: 99.2%;
+  }
+
+  .observacion_v{
+    font-size: 16px;
+    height: 40px;
+    width: 99.2%;
+  }
+
+  .disco_v{
+    border-color: transparent;
+    font-size: 13px;
+    width: 120px;
+    height: 24px;
+  }
+
+  .memoria_v{border-color: transparent;
+    font-size: 13px;
+    width: 120px;
+    height: 24px;
+  }
+
+  .ip_v{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .p_red_v{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .monitor_v{
+    border-color: transparent;
+    font-size: 13px;
+    height: 30px;
+    width: 130px;
+  }
+
+  .placa_m_v{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .marca_m_v{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .serial_m_v{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .modelo_m_v{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .otro_dispositivo_v{
+    border-color: transparent;
+    font-size: 13px;
+    height: 30px;
+    width: 130px;
+  }   
+
+  .placa_o_v{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .marca_o_v{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .serial_o_v{
+    
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  
+  }
+
+  .modelo_o_v{
+    border-color: transparent;
+    width: 240px;
+  }
+
+  .ip{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .p_red{
+    border-color: transparent;
+    width: 240px;
+    height: 24px;
+  }
+
+  .f_usu{
+    border-color: transparent;
+    width: 390px;
+    font-size: 16px;
+  }
+
+  .f_tec{
+    border-color: transparent;
+    width: 390px;
+    font-size: 16px;
+  }
+
+  .Guardar{
+    margin-left: 36px;
+  }
+
+  .mensaje{
+    width: 420px;
+    height: 64px;
+    background-color: #B2D1E4;
+    font-size: 18px;
+    border-radius: 4px;
+    position: absolute;
+    top: 46px;
+    left: 450px;
+    padding: 10px;
+    opacity: 92%;
+  }
+
+  .btn-em{
+    border-color: transparent;
+    background-image: url("Imagenes/ok.png");
+    background-repeat: no-repeat;
+    background-size: 12% 66%;
+    background-position: 14% 46%;
+    background-color: #16BB43;
+    box-shadow: 1px 1px 0px #373C3C;
+    padding: 3px 0px;
+    width: 120px;
+    margin: 6px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    border-radius: 4px;
+    top: 44px;
+    right: 150px;
+    cursor: pointer;
+    opacity: 90%;
+  }
+
+  .btn-em-2{
+    border-color: transparent;
+    background-image: url("Imagenes/x.png");
+    background-repeat: no-repeat;
+    background-size: 9% 50%;
+    background-position: 16% 44.8%;
+    background-color: #BF1515;
+    box-shadow: 1px 1px 0px #373C3C;
+    padding: 3px 0px;
+    width: 110px;
+    margin: 6px;
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    border-radius: 4px;
+    top: 44px;
+    right: 158px;
+    cursor: pointer;
+    opacity: 90%;
+  }
+
+  .btn-em-r{
+    position: absolute;
+    display: inline-block;
+    border-color: transparent;
+    background-image: url("../Imagenes/volver1.png");
+    background-repeat: no-repeat;
+    background-size: 22% 80%;
+    background-position: 7% 46%;
+    background-color: #BF1515;
+    box-shadow: 1px 1px 0px #373C3C;
+    padding: 3px 0px;
+    width: 110px;
+    margin: 6px;
+    margin-left: 160px;
+    margin-top: -15px;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .Guardar{
+    position: absolute;
+    display: inline-block;
+    border-color: transparent;
+    background-image: url("../Imagenes/guardar.png");
+    background-repeat: no-repeat;
+    background-size: 15% 56%;
+    background-position: 10% 44%;
+    background-color: #16BB43;
+    box-shadow: 1px 1px 0px #373C3C;
+    padding: 3px 0px;
+    width: 100px;
+    margin: 6px;
+    margin-left: 294px;
+    margin-top: -15px;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .btn-em-c{
+    position: absolute;
+    border-color: transparent;
+    background-image: url("../Imagenes/apagar.png");
+    background-repeat: no-repeat;
+    background-size: 56% 62%;
+    background-position: 50% 46%;
+    background-color: #284ECE;
+    box-shadow: 1px 1px 0px #373C3C;
+    padding: 3px 0px;
+    width: 30px;
+    margin: 6px;
+    margin-left: 10px;
+    margin-top: -3px;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
