@@ -12,7 +12,7 @@ const Navbar = () => {
                     <div className="container hero">
                         <div className="container-logo">
                             <h1 className="logo">
-                                <NavLink to='/' className="navbar-brand">
+                                <NavLink to='/home' className="navbar-brand">
                                     Aplicacion de Tigo
                                 </NavLink>
                             </h1>

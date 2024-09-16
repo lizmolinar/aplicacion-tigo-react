@@ -1,5 +1,6 @@
 import "../../styles/styles.css"
 
+
 export const RegisterUser = () => {
     return (
         <div className="container my-5">
@@ -95,7 +96,7 @@ export const RegisterUser = () => {
                             <option value="opcion3">Contratista</option>
                         </select>
                     </div>
-                    <button type="submit" className="btn btn-primary w-100" name="btnregistrar" value="ok">Crear</button>
+                    <button type="submit" className="btn btn-primary w-100" name="btnregistrar" value="ok">Crear</button>    
                 </form>
 
                 <div className="col-md-8 p-3">

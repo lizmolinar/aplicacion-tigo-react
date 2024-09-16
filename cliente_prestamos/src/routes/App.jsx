@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar/Navbar.jsx';
 import Login from "../pages/login/Login.jsx";
 import Registro from '../pages/Registro/Registro.jsx';
 import UserAccount from "../pages/UserAccount/UserAccount.jsx";
+import { FormSearch } from "../components/forms/formSearch.jsx";
 import { RegisterUser } from "../pages/registrar_usuario/RegisterUser";
 import { CreateActa } from "../pages/crear_acta/CreateActa";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -16,7 +17,8 @@ function App() {
             <Route exact path='/login' element={<Login />} />
             <Route exact path='/registro' element={<Registro />} />
             <Route exact path="/home" element={<UserAccount/>}/>
-            <Route exact path="/registrarusuario" element={<RegisterUser/>}/>
+            <Route exact path="/buscar" element={<FormSearch/>}/>
+            <Route exact path="/registrarusu" element={<RegisterUser/>}/>
             <Route exact path="/crearacta" element={<CreateActa/>}/>
         </Routes>
     </BrowserRouter>
