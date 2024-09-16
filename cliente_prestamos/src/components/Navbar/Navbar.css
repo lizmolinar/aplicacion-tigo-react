@@ -1,0 +1,74 @@
+/*202529*/
+:root{
+    --primary-color: #202529;
+    --background-color: blue;
+    --light-color: #eeeee4; 
+    --font-color: #ffffff; 
+}
+
+
+/**************************************************************/
+
+/*************************HEADER***************************/
+.container-hero {
+	width: 100vw; /* 100% del ancho de la ventana */
+    height: 30vh; /* 100% de la altura de la ventana */
+    background-color: blue; /* Puedes personalizar el color de fondo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 15px !important;
+}
+
+.customer-support {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.customer-support i {
+	font-size: 1.8rem;
+}
+
+.content-customer-support {
+	display: flex;
+	flex-direction: column;
+}
+
+.container-logo {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.container-logo i {
+	font-size: 30rem;
+}
+
+.container-logo h1 a {
+	text-decoration: none;
+	color: var(--font-color);
+	font-size: 3rem;
+    font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+.container-user {
+	display: flex;
+	gap: 1rem;
+	cursor: pointer;
+}
+
+.container-user .fa-user {
+	font-size: 1.8rem;
+    padding-right: 1.4rem;
+	border-right: 1px solid #fff;
+}
+

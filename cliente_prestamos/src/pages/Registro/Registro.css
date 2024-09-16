@@ -1,0 +1,51 @@
+/*.contenedor-registro{
+    background: rgb(255,124,0);
+    background: linear-gradient(180deg, rgba(255,124,0,1) 31%, rgba(249,167,1,1) 73%, rgba(215,164,9,1) 84%);
+}*/
+.registro-box {
+    width: 35rem;
+    position: absolute;
+    padding: 50px 20px;
+    border-radius: 10px;
+    border: 1px solid #c2bcbc;
+  }
+
+  .registro-box label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+  }
+
+  .registro-box .inputs {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .registro-box input[type="text"], .registro-box input[type="password"] {
+    border: none;
+    border-bottom: 1px solid #69757d;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #69757d;
+    font-size: 16px;
+  }
+  
+  .registro-box .boton {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #000;
+    color: #ffc107;
+    font-size: 18px;
+  }
+  
+  .registro-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+  }
+
+  .registro-box .col{
+    padding-right: 30px;
+  }
