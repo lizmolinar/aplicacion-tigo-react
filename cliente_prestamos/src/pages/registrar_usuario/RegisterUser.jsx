@@ -1,9 +1,12 @@
-import "../../styles/styles.css"
+import {Accordion, AccordionItem, Button } from "@nextui-org/react";
 
 
 export const RegisterUser = () => {
+
     return (
-        <div className="container my-5">
+    <Accordion fullWidth>
+      <AccordionItem key="1" aria-label="Accordion 1" title="Accordion 1">
+      <div className="container my-5">
             <h1 className="text-center p-3 bg-primary text-white rounded">Bienvenid@</h1>
             <div className="row">
                 <form className="col-md-4 bg-light p-4 rounded shadow-sm" method="POST">
@@ -95,7 +98,12 @@ export const RegisterUser = () => {
                             <option value="opcion2">Estudiante en práctica</option>
                             <option value="opcion3">Contratista</option>
                         </select>
-                    </div>
+                    </div>  
+                    <Button color="success">
+                        Take a photo
+                    </Button>
+
+
                     <button type="submit" className="btn btn-primary w-100" name="btnregistrar" value="ok">Crear</button>    
                 </form>
 
@@ -154,5 +162,8 @@ export const RegisterUser = () => {
                 </div>
             </div>
         </div>
+      </AccordionItem>
+      </Accordion>
+        
     )
 }
